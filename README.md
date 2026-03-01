@@ -7,7 +7,7 @@ A 5-page interactive Power BI report analyzing customer purchase behavior, brand
 ## 📁 Repository Structure
 
 ```
-├── CustomerPurchaseBehavior.pbix   # Main Power BI report file
+├── CSA.pbix   # Main Power BI report file
 ├── data/
 │   ├── FACT_Purchase.csv           # Transaction-level fact table (~58,693 rows)
 │   ├── DIM_Customer.csv            # Customer demographic dimensions (500 customers)
@@ -113,15 +113,6 @@ The report uses a **star schema** with the following relationships:
 
 ---
 
-## 🚀 How to Use
-
-1. Clone or download this repository
-2. Open `CustomerPurchaseBehavior.pbix` in Power BI Desktop
-3. If prompted, update the data source path to point to the `/data` folder on your local machine
-4. Refresh the data and explore the report
-
----
-
-## 👤 Author
+## 👤 Author- Bedadyuti Debnath
 
 Built as part of a consumer behavior analytics project using transactional purchase data across 500 customers, 5 brands, and 730 days.
