@@ -7,7 +7,7 @@ A 5-page interactive Power BI report analyzing customer purchase behavior, brand
 ## 📁 Repository Structure
 
 ```
-├── CSA.pbix   # Main Power BI report file
+├── Chocolate_Sales_Analysis.pbix   # Main Power BI report file
 ├── data/
 │   ├── FACT_Purchase.csv           # Transaction-level fact table (~58,693 rows)
 │   ├── DIM_Customer.csv            # Customer demographic dimensions (500 customers)
