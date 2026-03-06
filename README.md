@@ -10,7 +10,7 @@ A 5-page interactive Power BI report analyzing customer purchase behavior, brand
 ├── Chocolate_Sales_Analysis.pbix   # Main Power BI report file
 ├── data/
 │   ├── FACT_Purchase.csv           # Transaction-level fact table (~58,693 rows)
-│   ├── DIM_Customer.csv            # Customer demographic dimensions (500 customers)
+│   ├── DIM_Customer.csv            # Customer demographic dimensions 
 │   ├── DIM_Brand.csv               # Brand reference table (5 brands)
 │   └── DIM_Date.csv                # Date dimension table (730 days)
 └── README.md
@@ -115,4 +115,4 @@ The report uses a **star schema** with the following relationships:
 
 ## 👤 Author- Bedadyuti Debnath
 
-Built as part of a consumer behavior analytics project using transactional purchase data across 500 customers, 5 brands, and 730 days.
+Built as part of a consumer behavior analytics project using transactional purchase data across 5 brands and 730 days.
